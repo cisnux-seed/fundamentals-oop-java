@@ -27,5 +27,14 @@ public class HelloWorldApp {
         };
         english.greeting();
         indonesia.greeting();
+
+        final var spanish = new AnotherHelloWorld() {
+
+            @Override
+            void greeting(String name) {
+                System.out.printf("Hola %s\n", name);
+            }
+        };
+        spanish.greeting("Fajra");
     }
 }
