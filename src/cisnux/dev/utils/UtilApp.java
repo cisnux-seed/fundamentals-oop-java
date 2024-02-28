@@ -6,7 +6,7 @@ import static cisnux.dev.utils.MathUtil.sum;
 
 public class UtilApp {
     public static void main(String[] args) {
-        System.out.println(PROCESSORS);
+        System.out.println("from " + PROCESSORS);
 
         System.out.println(VERSION);
         System.out.println(APPLICATION_NAME);
